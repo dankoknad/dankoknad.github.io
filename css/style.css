@@ -17,3 +17,5 @@ h1:hover {
 	color: olive;
 	cursor: pointer;
 }
+a, a:visited, a:active {color: inherit;}
+a:hover {color: inherit;}
