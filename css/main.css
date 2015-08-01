@@ -6,8 +6,6 @@
  body { 
  	position: relative;
  	padding-top: 100px;
- 	padding-bottom: 500px; 
- 	min-height: 2000px;
  	font-size: 18px;
 }
 body, a {
