@@ -94,6 +94,8 @@ ul {
 	padding-top: 50px;
 }
 .profile-img {
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 50px;
 	border-radius: 50%;
   border: 3px solid #33cc99;
