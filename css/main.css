@@ -6,7 +6,7 @@
  body { 
  	position: relative;
  	padding-top: 100px;
- 	font-size: 18px;
+ 	font-size: 16px;
 }
 body, a {
 	font-family: 'Open Sans', sans-serif;
@@ -233,6 +233,9 @@ ul {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+	body {
+		font-size: 18px;
+	}
 	.nav {
 		margin-bottom: 0;
 	}
