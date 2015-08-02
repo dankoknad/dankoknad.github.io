@@ -161,6 +161,11 @@ li.active {
 .testimonials .item {
 	padding-right: 50px;
 }
+.clent-img {
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid #33cc99;
+}
 .testimonial {
 	position: relative;
 }
