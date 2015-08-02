@@ -20,5 +20,21 @@ $(function() {
     }
   });
 
+  if ($(window).width() > 750) {
+	  $('.client:even' ).addClass('pull-left');
+	  $('.client:odd' ).addClass('pull-right');  	
+  }
+
+
+/*   //  for testing
+  jQuery(window).load(function () {
+      var width = jQuery(window).width();
+      var height = jQuery(window).height();
+      var documentWidth = jQuery(document).width();
+      var documentHeight = jQuery(document).height();
+      console.log(width);
+      console.log(height);
+    });
+*/
 
 });

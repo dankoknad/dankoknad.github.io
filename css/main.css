@@ -19,7 +19,7 @@ h2 {
 	margin-top: 100px;
   margin-bottom: 100px;
 }
-a {
+a, a:hover, a:focus {
 	color: inherit;
 }
 ul {
@@ -75,7 +75,7 @@ ul {
 	font-size: 20px;
 	line-height: 50px;
 }
-.active {
+li.active {
 	color: #33cc99;
 }
  
@@ -148,6 +148,14 @@ ul {
   max-width: 800px;
   display: inline-block;
 }
+/* testimonials */
+
+.testimonials .item {
+	padding-right: 50px;
+}
+.testimonial {
+	position: relative;
+}
 .vertical .carousel-inner {
   height: 100%;
 }
@@ -209,6 +217,7 @@ ul {
 
 /* contact */
 .contact {
+	padding-bottom: 50px;
 	background: #333;
 	color: #fff;
 }
@@ -237,6 +246,15 @@ ul {
 @media only screen and (min-width : 768px) {
 	body {
 		font-size: 18px;
+	}
+	.client {
+		padding: 0 30px;
+	}
+	.client.pull-right {
+	  padding: 0;
+	}
+	.testimonial {
+		text-align: left;
 	}
 	.nav {
 		margin-bottom: 0;
@@ -300,6 +318,9 @@ ul {
 	.nav-tabs>li.active>a:hover, 
 	.nav-tabs>li.active>a:focus {
 		border: none;
+	}
+	.carousel-indicators {
+		display: none;
 	}
 
 }
