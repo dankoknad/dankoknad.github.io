@@ -103,7 +103,11 @@ li.active {
 .txt-big {
 	font-size: 30px;
 }
-
+/* services */
+.services img {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 .carousel-control.left, .carousel-control.right {
   background-image: none;
 }
