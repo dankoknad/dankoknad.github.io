@@ -214,7 +214,10 @@ li.active {
 .nav-tabs>li.active>a:focus {
 	color: #33cc99;
 }
-
+/* portfolio */
+.portfolio {
+	padding-bottom: 50px;
+}
 /* contact */
 .contact {
 	padding-bottom: 50px;
