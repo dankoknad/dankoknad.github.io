@@ -248,6 +248,9 @@ li.active {
 .portfolio {
 	padding-bottom: 50px;
 }
+.portfolio img {
+	max-height: 400px;
+}
 /* contact */
 .contact {
 	padding-bottom: 450px;
