@@ -101,6 +101,8 @@ li.active {
 }
 .carousel-control.left, .carousel-control.right {
   background-image: none;
+  background: none !important; 
+	filter: progid:none !important;
 }
 .glyphicon-chevron-up, 
 .glyphicon-chevron-down, 
