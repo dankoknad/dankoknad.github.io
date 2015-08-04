@@ -149,6 +149,10 @@ li.active {
 .testimonials .item {
 	padding-right: 50px;
 }
+.client a {
+	position: relative;
+	z-index: 5;
+}
 .clent-img {
 	width: 150px;
 	border-radius: 50%;
