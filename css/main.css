@@ -231,10 +231,9 @@ li.active {
 /* end carousel vertical slides*/
 
 
-/* tabs */
+/* tabs - skills*/
 .nav-tabs>li {
-	width: 50%;
-	
+	width: 50%;	
 }
 .nav-tabs>li>a {
 	line-height: 50px;
@@ -249,6 +248,15 @@ li.active {
 }
 .tab-pane {
 	padding: 20px 0;
+}
+.skills img {
+	height: 48px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.etc {
+	position: relative;
+  top: 20px;
 }
 /* portfolio */
 .portfolio {
@@ -321,6 +329,9 @@ li.active {
 		border: 3px solid #33cc99;	
 		border-bottom-color: transparent;
 		margin-top: -2px;
+	}
+	.skills img {
+		height: 64px;
 	}
 }
 
