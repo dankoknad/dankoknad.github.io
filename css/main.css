@@ -256,7 +256,7 @@ li.active {
 }
 .etc {
 	position: relative;
-  top: 20px;
+  top: 10px;
 }
 /* portfolio */
 .portfolio {
@@ -332,6 +332,9 @@ li.active {
 	}
 	.skills img {
 		height: 64px;
+	}
+	.etc {
+	  top: 20px;
 	}
 }
 
