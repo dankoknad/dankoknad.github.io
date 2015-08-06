@@ -265,6 +265,12 @@ li.active {
 .portfolio img {
 	max-height: 400px;
 }
+.carousel-caption {
+	bottom: 0;
+	padding-bottom: 0;
+	color: #33cc99;
+	text-shadow: 1px 1px 0px #CC3366;
+}
 /* contact */
 .contact {
 	padding-bottom: 450px;
@@ -386,7 +392,10 @@ li.active {
 	}
 	.portfolio img {
 		position: absolute;
+		left: 0;
+		right: 0;
   	bottom: 0;
+
 	}
 
 }
