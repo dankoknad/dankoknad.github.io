@@ -47,4 +47,54 @@
     "link"        : "http://www.mattkretsinger.com/",
     "testimonial" : "Excellent work! Fast, professional, knowledgeable and detail oriented! Will hire again!" 
   }
+],
+  "portfolio" : [
+  {
+    "portfolioimg" : "img/widgets.png",
+    "description"  : "Widgets for <a href=\"https://stylekey.com/\">stylekey.com</a>"
+  },
+  {
+    "portfolioimg" : "img/Three-modals.jpg",
+    "description"  : "Three responsive modal windows. Client: <a href=\"http://seedworks.pt/\">seedworks.pt</a>"   
+  },
+  {
+    "portfolioimg" : "img/dropdown-2-wide.png",
+    "description"  : "Dropdowns for <a href=\"https://stylekey.com/\">stylekey.com</a>"   
+  },
+  {
+    "portfolioimg" : "img/form.jpg",
+    "description"  : "Responsive form for the <a href=\"https://www.jrcinsurancegroup.com/\">JRC insurancegroup</a>"   
+  },
+  {
+    "portfolioimg" : "img/Truckload_Home_PGM.jpg",
+    "description"  : "Responsive web page, Bootstrap"   
+  },
+  {
+    "portfolioimg" : "img/LC_Dashboard.jpg",
+    "description"  : "Responsive dashboard for the <a href=\"http://lawcorner.com.au\">lawcorner.com.au</a>"   
+  },
+  {
+    "portfolioimg" : "img/Pack.jpg",
+    "description"  : "Responsive homepage"   
+  },
+  {
+    "portfolioimg" : "img/Postwire.jpg",
+    "description"  : "Responsive homepage"   
+  },
+  {
+    "portfolioimg" : "img/Jose.jpg",
+    "description"  : "Responsive web application. Client: <a href=\"https://www.linkedin.com/profile/view?trk=contacts-contacts-list-contact_name-0&id=5202198\">Jose da Silva</a>"   
+  },
+  {
+    "portfolioimg" : "img/Compliance-Jobs-Mockup.jpg",
+    "description"  : "Homepage for the <a href=\"http://compliancejobs.com/\">compliancejobs.com</a>"   
+  },
+  {
+    "portfolioimg" : "img/UmbaBOX.jpg",
+    "description"  : "Responsive homepage"   
+  },
+  {
+    "portfolioimg" : "img/cfa2_basket.jpg",
+    "description"  : "Shopping cart (as a part of the site). Client: <a href=\"http://www.dizi.lt/en/\">Dizi</a>"   
+  }
 ]}

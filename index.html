@@ -166,57 +166,7 @@
         <ol class="carousel-indicators"></ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img class="center-block" src="img/widgets.png" alt="...">
-            <div class="carousel-caption">Widgets for <a href="https://stylekey.com/">stylekey.com</a></div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/Three-modals.jpg" alt="...">
-            <div class="carousel-caption">Three responsive modal windows. Client: <a href="http://seedworks.pt/">seedworks.pt</a></div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/dropdown-2-wide.png" alt="...">
-            <div class="carousel-caption">Dropdowns for <a href="https://stylekey.com/">stylekey.com</a>.</div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/form.jpg" alt="...">
-            <div class="carousel-caption">Responsive form for the <a href="https://www.jrcinsurancegroup.com/">JRC insurancegroup</a></div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/Truckload_Home_PGM.jpg" alt="...">
-            <div class="carousel-caption">Responsive web page, Bootstrap</div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/LC_Dashboard.jpg" alt="...">
-            <div class="carousel-caption">Responsive dashboard for the <a href="http://lawcorner.com.au">lawcorner.com.au</a></div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/Pack.jpg" alt="...">
-            <div class="carousel-caption">Responsive homepage</div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/Postwire.jpg" alt="...">
-            <div class="carousel-caption">Responsive homepage</div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/Jose.jpg" alt="...">
-            <div class="carousel-caption">Responsive web application. Client: <a href="https://www.linkedin.com/profile/view?trk=contacts-contacts-list-contact_name-0&id=5202198">Jose da Silva</a></div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/Compliance-Jobs-Mockup.jpg" alt="...">
-            <div class="carousel-caption">Homepage for the <a href="http://compliancejobs.com/">compliancejobs.com</a></div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/UmbaBOX.jpg" alt="...">
-            <div class="carousel-caption">Responsive homepage</div>
-          </div>
-          <div class="item">
-            <img class="center-block" src="img/cfa2_basket.jpg" alt="...">
-            <div class="carousel-caption">Shopping cart (as a part of the site). Client: <a href="http://www.dizi.lt/en/">Dizi</a></div>
-          </div>
-          
-        </div>
+        <div class="carousel-inner" role="listbox"></div>
 
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-portfolio" role="button" data-slide="prev">
@@ -282,6 +232,15 @@
             </div>
           </div>
       {{/testimonials}}
+    </script>
+
+    <script id="portfoliotpl" type="text/template">      
+      {{#portfolio}}
+        <div class="item">
+          <img class="center-block" src="{{portfolioimg}}" alt="...">
+          <div class="carousel-caption">{{{description}}}</div>
+        </div>
+      {{/portfolio}}
     </script>
 
    

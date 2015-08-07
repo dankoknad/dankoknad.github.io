@@ -1,5 +1,6 @@
 $(function() {
 
+  // bootstrap affix = scrollspy
 	$("body").scrollspy({
 	  offset: 50,
 	  target: ".navbar"
@@ -8,7 +9,7 @@ $(function() {
   
   
   
-
+  // smooth scrolling
 	var smoothScrollLinks = $('.collapse a[href*=#]:not([href=#]), #about a');
 
     $(smoothScrollLinks).click(function() {
@@ -27,8 +28,8 @@ $(function() {
   
   
 
-
-  $.getJSON('../data/testimonials.json', function(data) {
+  // js templates {{mustache.js}} 
+  $.getJSON('data/data.json', function(data) {
 
     var template = $('#testimonialstpl').html();
     var html = Mustache.to_html(template, data);
@@ -42,25 +43,28 @@ $(function() {
     
     $('#carousel-testimonials .item:first').addClass('active');
     $('#carousel-testimonials li:first').addClass('active');
-    
+
     if ($(window).width() > 750) {
         $('.client:even' ).addClass('pull-left');
-        $('.client:odd' ).addClass('pull-right');  	
+        $('.client:odd' ).addClass('pull-right');   
     }
+
+
+
+    var templatePortfolio = $('#portfoliotpl').html();
+    var htmlPortfolio  = Mustache.to_html(templatePortfolio, data);
+    $('#carousel-portfolio .carousel-inner').html(htmlPortfolio);
     
-  });
-  
-  
-  
-  
     var portfolioItems = $('#carousel-portfolio .item').length;
     for(var i =0; i < portfolioItems; i++){
       var insertText = '<li data-target="#carousel-portfolio" data-slide-to="' + i + '"></li>';
       $('#carousel-portfolio ol').append(insertText);
-    }  
-    
+    }
+
     $('#carousel-portfolio .item:first').addClass('active');
     $('#carousel-portfolio li:first').addClass('active');
+    
+  });
 
 
 });
