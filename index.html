@@ -51,7 +51,8 @@
     <div id="about" class="container about">
       <a href="#contact"><img class="img-responsive profile-img" src="img/profile-img.jpg" alt="Danko Milutinovic"></a>
       <div class="txt-big">Danko Milutinovic</div>
-      <span>Freelance Front-end and UI Developer</span>
+      <span>Freelance Front-end and UI Developer</span><br><br>
+      <strong class="txt-green">I am available for freelance work</strong>
       <h1>I am freelance Front-end and UI Developer</h1>
       <span class="md-width" >I create user-friendly interfaces with high perfomances for the web applications and sites. My focus is on architecture, usability, maintability and pixel-perfect execution of the design. </span>
     </div>
@@ -87,7 +88,25 @@
         <ol class="carousel-indicators"></ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox"></div>       
+        <div class="carousel-inner" role="listbox">
+          <script id="testimonialstpl" type="text/template">      
+            {{#testimonials}}
+              <div class="item">
+                <div class="clearfix">
+                  <div class="client">
+                    <a href="{{link}}" target="_blank">
+                      <img src="{{img}}" alt=".." class="clent-img">
+                    </a>
+                    <div>{{name}}</div>
+                    </div>
+                    <div class="testimonial">
+                      <span class="l-quotes">"</span>{{testimonial}}<span class="r-quotes">"</span>
+                    </div>
+                  </div>
+                </div>
+            {{/testimonials}}
+          </script>
+        </div>       
        
         <!-- Controls -->
         <a class="right" href="#carousel-testimonials" role="button" data-slide="prev">
@@ -166,7 +185,16 @@
         <ol class="carousel-indicators"></ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox"></div>
+        <div class="carousel-inner" role="listbox">
+          <script id="portfoliotpl" type="text/template">      
+            {{#portfolio}}
+              <div class="item">
+                <img class="center-block" src="{{portfolioimg}}" alt="...">
+                <div class="carousel-caption">{{{description}}}</div>
+              </div>
+            {{/portfolio}}
+          </script>
+        </div>
 
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-portfolio" role="button" data-slide="prev">
@@ -216,32 +244,9 @@
 
 
 
-    <script id="testimonialstpl" type="text/template">      
-      {{#testimonials}}
-        <div class="item">
-          <div class="clearfix">
-            <div class="client">
-              <a href="{{link}}" target="_blank">
-                <img src="{{img}}" alt=".." class="clent-img">
-              </a>
-              <div>{{name}}</div>
-              </div>
-              <div class="testimonial">
-                <span class="l-quotes">"</span>{{testimonial}}<span class="r-quotes">"</span>
-              </div>
-            </div>
-          </div>
-      {{/testimonials}}
-    </script>
 
-    <script id="portfoliotpl" type="text/template">      
-      {{#portfolio}}
-        <div class="item">
-          <img class="center-block" src="{{portfolioimg}}" alt="...">
-          <div class="carousel-caption">{{{description}}}</div>
-        </div>
-      {{/portfolio}}
-    </script>
+
+
 
    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
