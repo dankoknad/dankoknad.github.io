@@ -250,7 +250,7 @@ li.active {
 	color: #33cc99;
 }
 .tab-pane {
-	padding: 20px 0;
+	padding: 40px 0 20px;
 }
 .skills img {
 	height: 48px;
@@ -260,6 +260,23 @@ li.active {
 .etc {
 	position: relative;
   top: 10px;
+}
+.experience {
+	margin-bottom: 20px;
+	font-size: 22px;
+	overflow: hidden;	
+}
+.exp-skill {
+	float: left;
+	min-width: 100px;
+}
+.exp-desc {
+	vertical-align:top;
+}
+.exp-desc .txt-green {
+	font-size: 40px;
+	margin-right: 40px;
+	line-height: 30px;
 }
 /* portfolio */
 .portfolio {
