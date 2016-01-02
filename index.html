@@ -153,20 +153,14 @@
             <div>There's more to come..</div>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="tools">
-            <img src="img/logo/Git.png" alt="git">
-            <img src="img/logo/grunt.jpg" alt="grunt">
-            <img src="img/logo/bower.jpg" alt="bower">
-            <img src="img/logo/JQuery.png" alt="jQuery">
-            <img src="img/logo/bootstrap.jpg" alt="bootstrap">
-            <img src="img/logo/sass.png" alt="Sass">
-            <img src="img/logo/modernizr.png" alt="modernizr">
-            <img src="img/logo/mustacheJS.png" alt="mustacheJS">
-            <img src="img/logo/icomoon.jpg" alt="icomoon">
-            <img src="img/logo/Google-Maps.png" alt="Google-Maps">
-            <img src="img/logo/Sublime-Text.jpg" alt="Sublime-Text">
-            <img src="img/logo/ps.jpg" alt="photoshop">
-            <img src="img/logo/ai.jpg" alt="illustrator">
-            <span class="etc">...</span>
+            <script id="toolsTpl" type="text/template">      
+              {{#tools}}
+                <a href="{{link}}" target="_blank">
+                  <img src="{{img}}" alt="..">
+                </a>
+              {{/tools}}
+              <span class="etc">...</span>
+            </script>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="experience">
             <div class="experience">

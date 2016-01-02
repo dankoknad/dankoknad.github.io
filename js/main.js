@@ -51,6 +51,12 @@ $(function() {
 
 
 
+    var toolsTemplate = $('#toolsTpl').html();
+    var toolsHtml = Mustache.to_html(toolsTemplate, data);
+    $('#tools').append().html(toolsHtml);
+
+
+
     var templatePortfolio = $('#portfoliotpl').html();
     var htmlPortfolio  = Mustache.to_html(templatePortfolio, data);
     $('#carousel-portfolio .carousel-inner').html(htmlPortfolio);

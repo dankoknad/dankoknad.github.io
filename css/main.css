@@ -352,7 +352,9 @@ li.active {
   margin-right: 40px;
   line-height: 30px;
 }
-
+#tools a {
+  text-decoration: none;
+}
 
 /* portfolio */
 

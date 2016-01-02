@@ -1,100 +1,156 @@
-{ "testimonials" : [
-  {
-    "name"        : "Evangelos Foutzitzis",
-    "img"         : "img/Evangelos-Foutzitzis.jpg",
-    "link"        : "https://www.linkedin.com/pub/evangelos-foutzitzis/34/661/74a",
-    "testimonial" : "Very motivated and efficient developer. Danko completed the requirements very fast and exceeded my expectations. A pleasure to work with! I will definitely hire again."    
-  },
-  {
-    "name"        : "Jose da Silva",
-    "img"         : "img/Jose-da-Silva.jpg",
-    "link"        : "http://seedworks.pt/",
-    "testimonial" : "Provider was once again a great asset for the project, huge demonstrations of professionalism and a great eye for detail. Even after i informed that i was extremely happy with the outcome he sent a new package with neat detail improvements. Will definitely hire him again." 
-  },
-   {
-    "name"        : "Chris Kergin",
-    "img"         : "img/Chris-Kergin-a.jpg",
-    "link"        : "https://www.linkedin.com/pub/chris-kergin/29/76/488",
-    "testimonial" : "Danko did some great front end work with an extremely tight deadline at really busy time. Needless to say, this guy is reliable and delivers a fantastic product. I won't hesitate to work with Danko again in the future." 
-  },
-  {
-    "name"        : "Matthew Kretsinger",
-    "img"         : "img/unknown.png",
-    "link"        : "http://www.mattkretsinger.com/",
-    "testimonial" : "Excellent work! I wasn't sure what I wanted was going to be possible, but he did not give up and came through in the end! I will certainly hire again!" 
-  },
-   {
-    "name"        : "Bryan Ferre",
-    "img"         : "img/Bryan-Ferre.jpg",
-    "link"        : "http://bryanferre.com/",
-    "testimonial" : "This was a last minute project. He got right on it and turned it around in less than 24 hours just as I had required. I will definitely work with him again." 
-  },
-  {
-    "name"        : "Jose da Silva",
-    "img"         : "img/Jose-da-Silva.jpg",
-    "link"        : "http://seedworks.pt/",
-    "testimonial" : "Will definitely work with Danko in the future. Outstanding work and always available." 
-  },
-  {
-    "name"        : "Chris Kergin",
-    "img"         : "img/Chris-Kergin.jpg",
-    "link"        : "https://www.linkedin.com/pub/chris-kergin/29/76/488",
-    "testimonial" : "Danko continues to over-perform. He's a great developer for any front-end work and simply a great person to work with. I'll certainly work with him again." 
-  },
-  {
-    "name"        : "Matthew Kretsinger",
-    "img"         : "img/unknown.png",
-    "link"        : "http://www.mattkretsinger.com/",
-    "testimonial" : "Excellent work! Fast, professional, knowledgeable and detail oriented! Will hire again!" 
-  }
-],
-  "portfolio" : [
-  {
-    "portfolioimg" : "img/widgets.png",
-    "description"  : "Widgets for <a href=\"https://stylekey.com/\">stylekey.com</a>"
-  },
-  {
-    "portfolioimg" : "img/Three-modals.jpg",
-    "description"  : "Three responsive modal windows. Client: <a href=\"http://seedworks.pt/\">seedworks.pt</a>"   
-  },
-  {
-    "portfolioimg" : "img/dropdown-2-wide.png",
-    "description"  : "Dropdowns for <a href=\"https://stylekey.com/\">stylekey.com</a>"   
-  },
-  {
-    "portfolioimg" : "img/form.jpg",
-    "description"  : "Responsive form for the <a href=\"https://www.jrcinsurancegroup.com/\">JRC insurancegroup</a>"   
-  },
-  {
-    "portfolioimg" : "img/Truckload_Home_PGM.jpg",
-    "description"  : "Responsive web page. Client: <a href=\"http://bryanferre.com/\">Bryan Ferre</a>"   
-  },
-  {
-    "portfolioimg" : "img/LC_Dashboard.jpg",
-    "description"  : "Responsive dashboard for the <a href=\"http://lawcorner.com.au\">lawcorner.com.au</a>"   
-  },
-  {
-    "portfolioimg" : "img/Pack.jpg",
-    "description"  : "Responsive homepage"   
-  },
-  {
-    "portfolioimg" : "img/Postwire.jpg",
-    "description"  : "Responsive homepage"   
-  },
-  {
-    "portfolioimg" : "img/Jose.jpg",
-    "description"  : "Responsive web application. Client: <a href=\"https://www.linkedin.com/profile/view?trk=contacts-contacts-list-contact_name-0&id=5202198\">Jose da Silva</a>"   
-  },
-  {
-    "portfolioimg" : "img/Compliance-Jobs-Mockup.jpg",
-    "description"  : "Homepage for the <a href=\"http://compliancejobs.com/\">compliancejobs.com</a>"   
-  },
-  {
-    "portfolioimg" : "img/UmbaBOX.jpg",
-    "description"  : "Responsive homepage"   
-  },
-  {
-    "portfolioimg" : "img/cfa2_basket.jpg",
-    "description"  : "Shopping cart (as a part of the site). Client: <a href=\"http://www.dizi.lt/en/\">Dizi</a>"   
-  }
-]}
+{ 
+  "testimonials" : [
+    {
+      "name"        : "Evangelos Foutzitzis",
+      "img"         : "img/Evangelos-Foutzitzis.jpg",
+      "link"        : "https://www.linkedin.com/pub/evangelos-foutzitzis/34/661/74a",
+      "testimonial" : "Very motivated and efficient developer. Danko completed the requirements very fast and exceeded my expectations. A pleasure to work with! I will definitely hire again."    
+    },
+    {
+      "name"        : "Jose da Silva",
+      "img"         : "img/Jose-da-Silva.jpg",
+      "link"        : "http://seedworks.pt/",
+      "testimonial" : "Provider was once again a great asset for the project, huge demonstrations of professionalism and a great eye for detail. Even after i informed that i was extremely happy with the outcome he sent a new package with neat detail improvements. Will definitely hire him again." 
+    },
+     {
+      "name"        : "Chris Kergin",
+      "img"         : "img/Chris-Kergin-a.jpg",
+      "link"        : "https://www.linkedin.com/pub/chris-kergin/29/76/488",
+      "testimonial" : "Danko did some great front end work with an extremely tight deadline at really busy time. Needless to say, this guy is reliable and delivers a fantastic product. I won't hesitate to work with Danko again in the future." 
+    },
+    {
+      "name"        : "Matthew Kretsinger",
+      "img"         : "img/unknown.png",
+      "link"        : "http://www.mattkretsinger.com/",
+      "testimonial" : "Excellent work! I wasn't sure what I wanted was going to be possible, but he did not give up and came through in the end! I will certainly hire again!" 
+    },
+     {
+      "name"        : "Bryan Ferre",
+      "img"         : "img/Bryan-Ferre.jpg",
+      "link"        : "http://bryanferre.com/",
+      "testimonial" : "This was a last minute project. He got right on it and turned it around in less than 24 hours just as I had required. I will definitely work with him again." 
+    },
+    {
+      "name"        : "Jose da Silva",
+      "img"         : "img/Jose-da-Silva.jpg",
+      "link"        : "http://seedworks.pt/",
+      "testimonial" : "Will definitely work with Danko in the future. Outstanding work and always available." 
+    },
+    {
+      "name"        : "Chris Kergin",
+      "img"         : "img/Chris-Kergin.jpg",
+      "link"        : "https://www.linkedin.com/pub/chris-kergin/29/76/488",
+      "testimonial" : "Danko continues to over-perform. He's a great developer for any front-end work and simply a great person to work with. I'll certainly work with him again." 
+    },
+    {
+      "name"        : "Matthew Kretsinger",
+      "img"         : "img/unknown.png",
+      "link"        : "http://www.mattkretsinger.com/",
+      "testimonial" : "Excellent work! Fast, professional, knowledgeable and detail oriented! Will hire again!" 
+    }
+  ],
+    "portfolio" : [
+    {
+      "portfolioimg" : "img/widgets.png",
+      "description"  : "Widgets for <a href=\"https://stylekey.com/\">stylekey.com</a>"
+    },
+    {
+      "portfolioimg" : "img/Three-modals.jpg",
+      "description"  : "Three responsive modal windows. Client: <a href=\"http://seedworks.pt/\">seedworks.pt</a>"   
+    },
+    {
+      "portfolioimg" : "img/dropdown-2-wide.png",
+      "description"  : "Dropdowns for <a href=\"https://stylekey.com/\">stylekey.com</a>"   
+    },
+    {
+      "portfolioimg" : "img/form.jpg",
+      "description"  : "Responsive form for the <a href=\"https://www.jrcinsurancegroup.com/\">JRC insurancegroup</a>"   
+    },
+    {
+      "portfolioimg" : "img/Truckload_Home_PGM.jpg",
+      "description"  : "Responsive web page. Client: <a href=\"http://bryanferre.com/\">Bryan Ferre</a>"   
+    },
+    {
+      "portfolioimg" : "img/LC_Dashboard.jpg",
+      "description"  : "Responsive dashboard for the <a href=\"http://lawcorner.com.au\">lawcorner.com.au</a>"   
+    },
+    {
+      "portfolioimg" : "img/Pack.jpg",
+      "description"  : "Responsive homepage"   
+    },
+    {
+      "portfolioimg" : "img/Postwire.jpg",
+      "description"  : "Responsive homepage"   
+    },
+    {
+      "portfolioimg" : "img/Jose.jpg",
+      "description"  : "Responsive web application. Client: <a href=\"https://www.linkedin.com/profile/view?trk=contacts-contacts-list-contact_name-0&id=5202198\">Jose da Silva</a>"   
+    },
+    {
+      "portfolioimg" : "img/Compliance-Jobs-Mockup.jpg",
+      "description"  : "Homepage for the <a href=\"http://compliancejobs.com/\">compliancejobs.com</a>"   
+    },
+    {
+      "portfolioimg" : "img/UmbaBOX.jpg",
+      "description"  : "Responsive homepage"   
+    },
+    {
+      "portfolioimg" : "img/cfa2_basket.jpg",
+      "description"  : "Shopping cart (as a part of the site). Client: <a href=\"http://www.dizi.lt/en/\">Dizi</a>"   
+    }
+  ],
+    "tools": [
+    {
+      "img"         : "img/logo/Git.png",
+      "link"        : "https://git-scm.com/"
+    },
+    {
+      "img"         : "img/logo/grunt.jpg",
+      "link"        : "http://gruntjs.com/"
+    },
+     {
+      "img"         : "img/logo/bower.jpg",
+      "link"        : "http://bower.io/"
+    },
+    {
+      "img"         : "img/logo/JQuery.png",
+      "link"        : "https://jquery.com/"
+    },
+     {
+      "img"         : "img/logo/bootstrap.jpg",
+      "link"        : "http://getbootstrap.com/"
+    },
+    {
+      "img"         : "img/logo/sass.png",
+      "link"        : "http://sass-lang.com/"
+    },
+    {
+      "img"         : "img/logo/modernizr.png",
+      "link"        : "https://modernizr.com/"
+    },
+    {
+      "img"         : "img/logo/mustacheJS.png",
+      "link"        : "https://github.com/janl/mustache.js/"
+    },
+    {
+      "img"         : "img/logo/icomoon.jpg",
+      "link"        : "https://icomoon.io/"
+    },
+    {
+      "img"         : "img/logo/Google-Maps.png",
+      "link"        : "https://developers.google.com/maps/?hl=en"
+    },
+    {
+      "img"         : "img/logo/Sublime-Text.jpg",
+      "link"        : "http://www.sublimetext.com/"
+    },
+    {
+      "img"         : "img/logo/ps.jpg",
+      "link"        : "http://www.adobe.com/products/photoshop.html"
+    },
+    {
+      "img"         : "img/logo/ai.jpg",
+      "link"        : "http://www.adobe.com/products/illustrator.html"
+    }
+  ]
+}
