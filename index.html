@@ -152,7 +152,7 @@
             </ul>
             <div>There's more to come..</div>
           </div>
-          <div role="tabpanel" class="tab-pane fade" id="tools">
+          <div role="tabpanel" class="tab-pane fade tools" id="tools">
             <script id="toolsTpl" type="text/template">      
               {{#tools}}
                 <a href="{{link}}" target="_blank">
@@ -180,13 +180,15 @@
               <div class="exp-desc"><span class="txt-green">2 &nbsp;</span>years</div>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane fade" id="learning">
-            <img src="img/logo/Node.js.png" alt="Node.js">
-            <img src="img/logo/AngularJS.png" alt="AngularJS">
-            <img src="img/logo/yeoman.png" alt="Yeoman">
-            <img src="img/logo/d3js.jpg" alt="D3js">
-            <img src="img/logo/snapsvg.jpg" alt="snapsvg">
-            <span class="etc">...</span>
+          <div role="tabpanel" class="tab-pane fade learning" id="learning">
+            <script id="learningTpl" type="text/template">      
+              {{#learning}}
+                <a href="{{link}}" target="_blank">
+                  <img src="{{img}}" alt="..">
+                </a>
+              {{/learning}}
+              <span class="etc">...</span>
+            </script>
           </div>
         </div>
 

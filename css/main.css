@@ -352,7 +352,8 @@ li.active {
   margin-right: 40px;
   line-height: 30px;
 }
-#tools a {
+.tools a,
+.learning a {
   text-decoration: none;
 }
 

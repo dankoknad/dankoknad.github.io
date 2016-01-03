@@ -55,6 +55,10 @@ $(function() {
     var toolsHtml = Mustache.to_html(toolsTemplate, data);
     $('#tools').append().html(toolsHtml);
 
+    var learningTemplate = $('#learningTpl').html();
+    var learningHtml = Mustache.to_html(learningTemplate, data);
+    $('#learning').append().html(learningHtml);
+
 
 
     var templatePortfolio = $('#portfoliotpl').html();
