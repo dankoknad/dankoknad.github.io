@@ -133,6 +133,9 @@
     "img": "img/logo/MeteorJS.png",
     "link": "https://www.meteor.com/"
   }, {
+    "img": "img/logo/mongodb.png",
+    "link": "https://www.mongodb.org/"
+  }, {
     "img": "img/logo/AngularJS.png",
     "link": "https://angularjs.org/"
   }, {
