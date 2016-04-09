@@ -138,6 +138,10 @@
   }, {
     "img": "img/logo/AngularJS.png",
     "link": "https://angularjs.org/"
+  },
+   {
+    "img": "img/logo/reactjs.png",
+    "link": "https://facebook.github.io/react/"
   }, {
     "img": "img/logo/yeoman.png",
     "link": "http://yeoman.io/"
