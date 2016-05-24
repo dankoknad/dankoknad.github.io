@@ -130,6 +130,9 @@
     "img": "img/logo/Node.js.png",
     "link": "https://nodejs.org/en/"
   }, {
+    "img": "img/logo/express.png",
+    "link": "http://expressjs.com/"
+  },  {
     "img": "img/logo/MeteorJS.png",
     "link": "https://www.meteor.com/"
   }, {
