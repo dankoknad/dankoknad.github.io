@@ -84,6 +84,9 @@
     "img": "img/logo/npm-logo.png",
     "link": "https://www.npmjs.com/"
   }, {
+    "img": "img/logo/webpack.jpg",
+    "link": "https://webpack.github.io/"
+  }, {
     "img": "img/logo/bower.jpg",
     "link": "http://bower.io/"
   }, {
@@ -92,6 +95,12 @@
   }, {
     "img": "img/logo/gulp.png",
     "link": "http://gruntjs.com/"
+  }, {
+    "img": "img/logo/jekyll.png",
+    "link": "https://jekyllrb.com/"
+  }, {
+    "img": "img/logo/cactus.png",
+    "link": "https://github.com/eudicots/Cactus"
   }, {
     "img": "img/logo/JQuery.png",
     "link": "https://jquery.com/"
@@ -138,21 +147,26 @@
   }, {
     "img": "img/logo/mongodb.png",
     "link": "https://www.mongodb.org/"
-  }, {
-    "img": "img/logo/AngularJS.png",
-    "link": "https://angularjs.org/"
-  },
-   {
+  },  {
     "img": "img/logo/reactjs.png",
     "link": "https://facebook.github.io/react/"
   }, {
     "img": "img/logo/logo-title-dark.png",
     "link": "http://redux.js.org/"
   }, {
+    "img": "img/logo/AngularJS.png",
+    "link": "https://angularjs.org/"
+  }, {
     "img": "img/logo/d3js.jpg",
     "link": "http://d3js.org/"
   }, {
     "img": "img/logo/snapsvg.jpg",
     "link": "http://snapsvg.io/"
+  }, {
+    "img": "img/logo/python.png",
+    "link": "https://www.python.org/"
+  }, {
+    "img": "img/logo/django.png",
+    "link": "https://www.djangoproject.com/"
   }]
 }
